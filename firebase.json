@@ -2,6 +2,7 @@
   "hosting": {
     "public": "public",
     "site": "minutes2021",
+    "CleanUrl": "true",
     "ignore": [
       "firebase.json",
       "**/.*",
