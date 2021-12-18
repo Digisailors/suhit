@@ -8803,4 +8803,25 @@ h3{
     margin-bottom: 10px;
     margin-left: 21px;
 }
+.section-title h1 span {
+  color: #e3051a;
+  font-weight: bold;
+}
+.section-title .title {
+  font-size: 62px;
+  color: black;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+  margin-bottom: 0px;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: -33px;
+  font-weight: bold;
+  font-family: 'Source Serif Pro', sans-serif;
 }
