@@ -163,6 +163,7 @@ h4 a:hover {
   margin-top: 8px;
   color: #818080;
   margin-bottom: 0;
+  margin-left: 2px;
 }
 
 .heading-content.style-one h4.subtitle {
@@ -2544,6 +2545,7 @@ pagination
 .header-top-area .header-top-menu li a {
   font-size: 13px;
   color: #e3051a;
+  font-family: "Exo", sans-serif;
   padding-right: 12px;
   font-weight: 700;
   padding: 15px;
@@ -6169,6 +6171,8 @@ pagination
 
 .social-profile {
   float: right;
+  color: #e3051a;
+  margin-top: 7%;
 }
 
 @media only screen and (max-width: 767px) {
