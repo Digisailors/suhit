@@ -2624,7 +2624,8 @@ pagination
 }
 
 .header-content-right {
-  float: right;
+  text-align: center;
+  margin-left: 14%;
 }
 
 @media only screen and (max-width: 767px) {
@@ -8828,4 +8829,11 @@ h1 {
   margin-inline-end: -33px;
   font-weight: bold;
   font-family: 'Source Serif Pro', sans-serif;
+}
+li.nav-item a.dropdown-item{
+    color: red !important;
+}
+ul.second{
+  background-color: #1d1d1f !important;
+  margin-left: 0% !important;
 }
