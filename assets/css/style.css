@@ -384,7 +384,7 @@ dd {
 img {
   height: auto;
   /* Make sure images are scaled correctly. */
-  max-width: 100%;
+  width: 50%;
   /* Adhere to container width. */
 }
 
@@ -4220,6 +4220,7 @@ pagination
   border-radius: 0 0 5px 5px;
   position: relative;
   padding-left: 22px;
+  width: 100%;
 }
 
 .vehicle-bottom-content:before {
@@ -7809,7 +7810,7 @@ input[type="checkbox"]::-ms-check {
 
 .widget.widget_menu ul li {
   line-height: 45px;
-  position: relative;
+  position: unset;
   font-family: "Exo", sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -9001,7 +9002,7 @@ ul.second{
   margin-top: -7%;
 }
 .header-nav-area .site-logo {
-  padding: 24px 0;
+  padding: 0px 0px;
   margin-left: -55px;
 }
 .header-top-area .header-top-menu li a {
@@ -9014,9 +9015,29 @@ ul.second{
   display: block;
   letter-spacing: 0.010em;
 }
+.animated-arrow {
+  padding: 120px 15px;
+}
+img#se {
+  position: relative;
+  top: 60%;
+  height: 30%;
+  vertical-align: right;
+  margin-right: 1%;
+  width: min-content;
+  margin-left: 10%;
+}
+#drop {
+  margin-left: 18%;
+  margin-top: -9%;
+}
 }
 
 @media only screen and (max-width: 760px){
+  #drop {
+    margin-left: 20% !important;
+    margin-top: -10% !important;
+}
   .header-nav-area .site-logo {
     padding: 24px 0;
     margin-left: 0px;
@@ -9030,8 +9051,11 @@ ul.second{
 }
 
 @media only screen and (max-width: 610px){
+  #drop {
+    margin-left: 23%;
+    margin-top: -11%;
+}
   #redhead h3:before{
-    
     position: absolute;
     content: '';
     width: 23px;
@@ -9111,3 +9135,181 @@ ul.second{
     margin-left: 138px;
 }
 }
+
+@media only screen and (max-width: 991px){
+  .animated-arrow {
+    padding: 100px 15px;
+}
+}
+
+@media only screen and (max-width: 760px){
+  .page-header {
+    margin: 0;
+    padding: 35px 0;
+    text-align: center;
+}
+.header-nav-area .site-logo {
+  padding: 0px 0;
+  margin-left: 0px;
+}
+img {
+  height: auto;
+  margin-left: 0% ;
+}
+}
+
+@media only screen and (max-width: 610px){
+  
+  img {
+    height: auto;
+    margin-left: 0%;
+}
+.vehicle-bottom-content {
+  padding: 20px;
+  margin-top: -1px;
+  overflow: hidden;
+  border-radius: 0 0 5px 5px;
+  position: relative;
+  padding-left: 25px;
+  width: 423px !important;
+  margin-left: 73px !important;
+}
+.theme-yellow .vehicle-bottom-content {
+    background: #E91E22;
+}
+.vehicle-bottom-content {
+    padding: 20px;
+    margin-top: -1px;
+    overflow: hidden;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+    padding-left: 25px;
+    width: 274px;
+    margin-left: 138px;
+}
+.footer-bottom-block .copyright {
+  font-size: 12px;
+  font-weight: 500;
+}
+}
+
+@media only screen and (max-width: 480px){
+  .vehicle-bottom-content {
+    padding: 20px;
+    margin-top: -1px;
+    overflow: hidden;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+    padding-left: 25px;
+    width: 422px;
+    margin-left: 10px;
+}
+    #mba{
+      padding: 20px;
+      margin-top: -1px;
+      overflow: hidden;
+      border-radius: 0 0 5px 5px;
+      position: relative;
+      padding-left: 25px;
+      width: 210px;
+      margin-left: 0px;
+  }
+  
+  .vehicle-bottom-content .vehicle-title {
+    font-size: 13px;
+    font-weight: 900;
+}
+.animated-arrow {
+  padding: 63px 15px;
+}
+img {
+  margin-left: 0%;
+}
+#mba {
+  width: 50%;
+  margin-left: 1px;
+}
+.extra-big-title {
+  font-size: 36px;
+}
+.heading-content-three .title {
+  font-size: 50px;
+}
+.footer-bottom-block .copyright {
+  font-size: 8px;
+}
+.pd-btm-72 {
+  padding-bottom: 20px;
+}
+}
+
+@media only screen and (max-width: 360px){
+  .vehicle-bottom-content {
+    padding: 20px;
+    margin-top: -1px;
+    overflow: hidden;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+    padding-left: 25px;
+    width: 274px;
+    margin-left: 38px;
+}
+.animated-arrow {
+    padding: 46px 15px;
+}
+.page-header {
+  margin: 0;
+  padding: 25px 0;
+  text-align: center;
+}
+.heading-content-three .title {
+  font-size: 46px;
+}
+.extra-big-title {
+  font-size: 33px;
+}
+.vehicle-bottom-content .vehicle-title {
+  font-size: 7px;
+  font-weight: 850;
+}
+}
+#drop{
+    margin-left: 35%;
+    margin-top: -25%;
+}
+
+.top-companies {
+  position: relative;
+  top: 0%;
+  height: 20%;
+  margin-left: 10%;
+  }
+  /*Header CSS*/
+  img#ttl {
+  position: relative;
+  top:50%;
+  height: 50%;
+  left: 0px;
+  width: min-content;
+  }
+  img#se {
+  position: relative;
+  top:60%;
+  height:30%;
+  vertical-align:right;
+  margin-right: 2%;
+  width: min-content;
+  margin-left: 10%;
+  }
+
+
+/* @media only screen and (max-width: 991px){
+  .animated-arrow {
+    padding: 145px 15px;
+} */
+
+/* @media only screen and (max-width: 760px){
+  .vehicle-bottom-content .vehicle-title {
+    font-size: 22px;
+}
+} */
