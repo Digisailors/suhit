@@ -6174,7 +6174,7 @@ pagination
 .social-profile {
   float: right;
   color: #e3051a;
-  margin-top: 7%;
+  margin-top: 12%;
 }
 
 @media only screen and (max-width: 767px) {
@@ -6193,10 +6193,12 @@ pagination
 
 .social-profile a {
   padding: 5px;
+  color: lawngreen;
 }
 
 .social-profile a:hover {
-  color: #e3051a;
+  /* color: #e3051a; */
+  color: green;
 }
 
 .footer-top-border .vehicle-multi-border:before {
@@ -8999,7 +9001,7 @@ ul.second{
 .social-profile {
   float: right;
   color: #e3051a;
-  margin-top: -7%;
+  margin-top: 30%;
 }
 .header-nav-area .site-logo {
   padding: 0px 0px;
@@ -9042,6 +9044,11 @@ img#se {
     padding: 24px 0;
     margin-left: 0px;
 }
+.social-profile {
+  float: right;
+  color: #e3051a;
+  margin-top: 9%;
+}
    .widget .expand-margin.widget-title:after {
     right: 80px;
   }
@@ -9077,8 +9084,7 @@ img#se {
 }
 
 @media only screen and (max-width: 480px) {
-  #redhead h3:before{
-    
+  #redhead h3:before{ 
     position: absolute;
     content: '';
     width: 23px;
@@ -9088,6 +9094,7 @@ img#se {
     top: 6px;
     z-index: 1;
   }
+  
 }
 
 @media only screen and (max-width: 360px) {
@@ -9140,6 +9147,10 @@ img#se {
   .animated-arrow {
     padding: 100px 15px;
 }
+#foot-item {
+  margin-top: -25% !important;
+  margin-left: 35% !important;
+}
 }
 
 @media only screen and (max-width: 760px){
@@ -9155,6 +9166,10 @@ img#se {
 img {
   height: auto;
   margin-left: 0% ;
+}
+#foot-item {
+  margin-top: -9% !important;
+  margin-left: 18% !important;
 }
 }
 
@@ -9203,6 +9218,10 @@ img {
     padding-left: 25px;
     width: 422px;
     margin-left: 10px;
+}
+#foot-item {
+  margin-top: -12% !important;
+  margin-left: 28% !important;
 }
     #mba{
       padding: 20px;
@@ -9262,6 +9281,10 @@ img {
   padding: 25px 0;
   text-align: center;
 }
+#foot-item {
+  margin-top: -17% !important;
+  margin-left: 37% !important;
+}
 .heading-content-three .title {
   font-size: 46px;
 }
@@ -9301,15 +9324,7 @@ img {
   width: min-content;
   margin-left: 10%;
   }
-
-
-/* @media only screen and (max-width: 991px){
-  .animated-arrow {
-    padding: 145px 15px;
-} */
-
-/* @media only screen and (max-width: 760px){
-  .vehicle-bottom-content .vehicle-title {
-    font-size: 22px;
+  #foot-item{
+  margin-top: -47%;
+  margin-left: 67%;
 }
-} */
