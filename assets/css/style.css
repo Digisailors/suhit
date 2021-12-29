@@ -9171,8 +9171,8 @@ img {
   border-radius: 0 0 5px 5px;
   position: relative;
   padding-left: 25px;
-  width: 423px !important;
-  margin-left: 73px !important;
+  width: 423px ;
+  margin-left: 73px ;
 }
 .theme-yellow .vehicle-bottom-content {
     background: #E91E22;

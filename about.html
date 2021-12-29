@@ -486,7 +486,7 @@
                                 <li><a href="about.html"> About Us</a></li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Products &nbsp<i class="fal fa-angle-down"></i></a>
-                                    <ul class="dropdown-menu second">
+                                    <ul class="dropdown-menu second" id="foot-item">
                                         <li class="nav-item"><a class="dropdown-item" href="Product - Evoqis.html">Evoqis</a></li>
                                         <li class="nav-item"><a class="dropdown-item" href="Product - Hawk+.html">Hawk +</a></li>
                                         <li class="nav-item"><a class="dropdown-item" href="Product - E2go.html">E2go</a></li>
@@ -592,7 +592,7 @@
                 <div class="row">
                      <div class="col-md-9">
                         <div class="bottom-content-left">
-                            <p class="copyright">Copyright &copy; 2021 SoftHopper  -  All Right Reserved <a href="https://www.digisailor.com/">digisailor.com</a></p>
+                            <p class="copyright">Copyright &copy; 2021 Digisailor  -  All Right Reserved <a href="https://www.digisailor.com/">digisailor.com</a></p>
                         </div><!-- /.bottom-top-content -->
                      </div><!-- /.col-md-9 -->
                      <div class="col-md-3">
@@ -617,4 +617,86 @@
     <script src="assets/js/carrent.min.js"></script> <!-- main-js -->
 </body>
 </html>
+
+<style>
+    @media only screen and (max-width: 991px){
+        img {
+    height: auto;
+    width: 41%;
+}
+.vehicle-bottom-content {
+    padding: 20px;
+    margin-top: -1px;
+    overflow: hidden;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+    padding-left: 22px;
+    width: 41%;
+}
+.vehicle-bottom-content .vehicle-title {
+    font-size: 21px;
+    font-weight: 900;
+    }
+    .vehicle-bottom-content{
+        margin-left: 0px;
+    } 
+    #foot-item{
+        margin-top: -23% !important;
+        margin-left: 37% !important;
+}
+}
+ @media only screen and (max-width: 760px){
+    #foot-item {
+    margin-top: -9% !important;
+    margin-left: 19% !important;
+}
+.animated-arrow {
+    padding: 92px 15px;
+}
+}
+@media only screen and (max-width: 610px){
+    .vehicle-bottom-content .vehicle-title {
+    font-size: 16px;
+    font-weight: 900;
+}
+#foot-item {
+    margin-top: -11% !important;
+    margin-left: 23% !important;
+}
+.animated-arrow {
+    padding: 67px 15px;
+}
+}
+
+@media only screen and (max-width: 480px){
+    #mba {
+    width: 41%;
+    margin-left: 1px;
+}
+.vehicle-bottom-content .vehicle-title {
+    font-size: 11px;
+}
+#foot-item {
+    margin-top: -12% !important;
+    margin-left: 27% !important;
+}
+.animated-arrow {
+    padding: 50px 15px;
+}
+}
+
+@media only screen and (max-width: 360px){
+    #mba {
+    width: 60%;
+    }
+    img {
+    height: auto;
+    width: 60%;
+    }
+#foot-item {
+    margin-top: -17% !important;
+    margin-left: 36% !important;
+}
+}
+</style>
 
