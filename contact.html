@@ -44,7 +44,7 @@
     <header class="header-top-area bg-nero">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-7 hidden-xs">
+                <div class="col-md-6 col-sm-7 ">
                     <div class="header-content-left">
                         <ul class="header-top-menu">
                             <li>
@@ -68,10 +68,10 @@
                         <ul class="header-top-menu">
                             <div class="social-profile">
                                 <!-- <span class="social-profole-title">Follow Us:</span> -->
-                                <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                                <a href="https://wa.me/+919843677371"><i class="fa fa-whatsapp"></i></a>
-                                <a href="https://www.instagram.com/accounts/login/?source=auth_switcher"><i class="fa fa-instagram"></i></a>
-                                <a href="https://twitter.com/i/flow/login"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/"><i class="fa fa-facebook" id="soc-fb"></i></a>
+                                <a href="https://wa.me/+919843677371"><i class="fa fa-whatsapp" id="soc-wp"></i></a>
+                                <a href="https://www.instagram.com/accounts/login/?source=auth_switcher"><i class="fa fa-instagram" id="soc-insta"></i></a>
+                                <a href="https://twitter.com/i/flow/login"><i class="fa fa-twitter" id="soc-twit" ></i></a>
                             </div>
                         </ul>
                         <!-- <ul class="header-top-menu">
@@ -320,12 +320,12 @@
 
                         <div class="contact">
                             <h4><i class="fa fa-user-circle"></i>Social account</h4>
-                            <div class="social-profile">
+                            <div class="social-profile" id="soc-con">
                                 <!--<span class="social-profole-title">Follow Us:</span>-->
-                                <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                                <a href="https://wa.me/+919843677371"><i class="fa fa-whatsapp"></i></a>
-                                <a href="https://www.instagram.com/accounts/login/?source=auth_switcher"><i class="fa fa-instagram"></i></a>
-                                <a href="https://twitter.com/i/flow/login"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/"><i class="fa fa-facebook" id="soc-fb"></i></a>
+                                <a href="https://wa.me/+919843677371"><i class="fa fa-whatsapp" id="soc-wp"></i></a>
+                                <a href="https://www.instagram.com/accounts/login/?source=auth_switcher"><i class="fa fa-instagram" id="soc-insta"></i></a>
+                                <a href="https://twitter.com/i/flow/login"><i class="fa fa-twitter" id="soc-twit"></i></a>
                             </div><!-- /.Social-icon -->
                         </div><!-- /.contact -->
                     </div><!-- /.contactus-content-left -->
@@ -525,13 +525,13 @@
                      </div><!-- /.col-md-9 -->
                      <div class="col-md-3">
                         <div class="bottom-content-right">
-                            <div class="social-profile">
+                            <div class="social-profile" id="soc-pro">
                                 <div class="social-profile">
                                     <span class="social-profole-title">Follow Us:</span>
-                                    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                                    <a href="https://wa.me/+919843677371"><i class="fa fa-whatsapp"></i></a>
-                                    <a href="https://www.instagram.com/accounts/login/?source=auth_switcher"><i class="fa fa-instagram"></i></a>
-                                    <a href="https://twitter.com/i/flow/login"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/"><i class="fa fa-facebook" id="soc-fb"></i></a>
+                                    <a href="https://wa.me/+919843677371"><i class="fa fa-whatsapp" id="soc-wp"></i></a>
+                                    <a href="https://www.instagram.com/accounts/login/?source=auth_switcher"><i class="fa fa-instagram" id="soc-insta"></i></a>
+                                    <a href="https://twitter.com/i/flow/login"><i class="fa fa-twitter" id="soc-twit"></i></a>
                                 </div>
                             </div><!-- /.social-profile -->
                         </div><!-- /.bottom-content-right -->
@@ -547,3 +547,11 @@
     <script src="assets/js/carrent.min.js"></script> <!-- main-js -->
 </body>
 </html>
+<style>
+    #soc-con{
+  float: left;
+    color: #e3051a;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+</style> 

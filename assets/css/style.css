@@ -6174,8 +6174,9 @@ pagination
 .social-profile {
   float: right;
   color: #e3051a;
-  margin-top: 12%;
+  margin-top: 10%;
 }
+
 
 @media only screen and (max-width: 767px) {
   .social-profile {
@@ -6193,9 +6194,20 @@ pagination
 
 .social-profile a {
   padding: 5px;
-  color: lawngreen;
+  color: cornsilk;
 }
-
+#soc-wp{
+  color: #25D366  !important;
+}
+#soc-fb{
+  color: #4267B2 !important;
+}
+#soc-insta{
+  color: #C13584 !important;
+}
+#soc-twit{
+  color: #1DA1F2 !important;
+}
 .social-profile a:hover {
   /* color: #e3051a; */
   color: green;
@@ -9003,6 +9015,18 @@ ul.second{
   color: #e3051a;
   margin-top: 30%;
 }
+#soc-con{
+  float: left !important;
+    color: #e3051a;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+}
+#soc-pro{
+    float: right;
+    color: #e3051a;
+    margin-top: -15%;
+}
 .header-nav-area .site-logo {
   padding: 0px 0px;
   margin-left: -55px;
@@ -9262,7 +9286,14 @@ img {
 }
 }
 
+
 @media only screen and (max-width: 360px){
+  #soc-pro {
+    float: right;
+    color: #e3051a;
+    margin-top: -20%;
+    margin-right: 25%;
+}
   .vehicle-bottom-content {
     padding: 20px;
     margin-top: -1px;
