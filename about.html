@@ -36,6 +36,7 @@
     <link rel="stylesheet" href="assets/css/icons.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/color-schemer.css">   
+    <sript src="assets/js/footer.js"></sript>
 </head>
 
 <body>
@@ -593,7 +594,10 @@
                 <div class="row">
                      <div class="col-md-9">
                         <div class="bottom-content-left">
-                            <p class="copyright">Copyright &copy; 2021 Digisailor  -  All Right Reserved <a href="https://www.digisailor.com/">digisailor.com</a></p>
+                            <!-- <div id="chart-title"></div> -->
+                            <div class="copyright" id="footerLinks">
+                                Copyright &copy <script type="text/javascript"> document.write(new Date().getFullYear());</script> Suhit Associates - Developed By <a href="https://www.digisailor.com/">Digisailor</a> 
+                            </div>
                         </div><!-- /.bottom-top-content -->
                      </div><!-- /.col-md-9 -->
                      <div class="col-md-3">
@@ -622,6 +626,11 @@
 </html>
 
 <style>
+    #soc-pro {
+    float: right;
+    color: #e3051a;
+    margin-top: -7%;
+}
     .vehicle-bottom-content {
     padding: 20px 20px 20px 22px;
     margin-top: -1px;
@@ -640,10 +649,15 @@
     
     
     @media only screen and (max-width: 991px){
+        /* #soc-pro {
+    float: right;
+    color: #e3051a;
+    margin-top: -15%;
+    } */
         img {
     height: auto;
     width: 41%;
-}
+    }
 .vehicle-bottom-content {
     padding: 20px;
     margin-top: -1px;
@@ -673,6 +687,20 @@
 .animated-arrow {
     padding: 92px 15px;
 }
+#soc-pro {
+    float: right;
+    color: #e3051a;
+    margin-top: -6% !important;
+}
+.social-profile {
+    margin-top: 12% ;
+}
+/* #soc-pro {
+    float: right;
+    color: #e3051a;
+    margin-top: -13%;
+    margin-right: 9%;
+} */
 }
 @media only screen and (max-width: 610px){
     .vehicle-bottom-content .vehicle-title {
@@ -685,6 +713,11 @@
 }
 .animated-arrow {
     padding: 67px 15px;
+}
+.social-profile {
+    float: right;
+    color: #e3051a;
+    margin-top: 10%;
 }
 }
 

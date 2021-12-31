@@ -36,8 +36,8 @@
     <link rel="stylesheet" href="assets/css/icons.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/color-schemer.css">   
-
-    <link rel="stylesheet" href="assets/jquery-ui/jquery-ui.min.css">   
+    <link rel="stylesheet" href="assets/jquery-ui/jquery-ui.min.css">
+    <script src="assets/js/footer.js"></script>   
 </head>
 
 <body>
@@ -357,19 +357,19 @@
                                   <div class="item">
                                       <img src="assets/images/image/image/Lithium Ion/Electric Scooter/wolf/wolf5 - 198.jpeg" alt="post-image">
                                   </div>
-                                  <div class="item">
+                                  <!-- <div class="item">
                                       <img src="assets/images/image/image/Lithium Ion/Electric Scooter/wolf/Wolf6 - 198.jpg" alt="post-image">
-                                  </div>
+                                  </div> -->
                               </div>  
                         </div> <!-- /.gallery-two -->
                     </div> <!-- /.corousel-gallery-content -->
                     
 
-                    <div class="hidden-md hidden-lg text-center extend-btn">
+                    <!-- <div class="hidden-md hidden-lg text-center extend-btn">
                         <span class="extend-icon">
                             <i class="fa fa-angle-down"></i>
                         </span>
-                    </div>
+                    </div> -->
                 </div> <!-- /.col-md-8 -->
                <!-- <div class="col-md-4">
                     <div class="vehicle-sidebar pd-zero">                    
@@ -770,7 +770,7 @@
                             <div class="widget-about-content">
                                 <img src="assets/images/Suhit Associates Final copy - Copy.png" alt="logo" />
                                 <p>We Provide Premium Word Press, Ghost and HTML template. Our Prem tjium Templates is, develo gped in a way so that the clients find  Support. Themes are developed in a way so that  the clients find.</p>
-                                <a href="#" class="button">More</a>
+                                <a href="about.html" class="button">More</a>
                             </div><!-- /.widget-content -->
                         </div><!-- /.widget widget_about -->
                     </div><!-- /.col-md-3 -->
@@ -890,7 +890,10 @@
                 <div class="row">
                      <div class="col-md-9">
                         <div class="bottom-content-left">
-                            <p class="copyright">Copyright &copy; 2021 Digisailor -  All Right Reserved <a href="https://www.digisailor.com/">Digisailor.com</a></p>
+                            <!-- <p class="copyright">Copyright &copy; 2021 Suhit Associates -  Developed By <a href="https://www.digisailor.com/">Digisailor</a></p> -->
+                            <div class="copyright" id="footerLinks">
+                                Copyright &copy <script type="text/javascript"> document.write(new Date().getFullYear());</script> Suhit Associates - Developed By <a href="https://www.digisailor.com/">Digisailor</a> 
+                            </div>
                         </div><!-- /.bottom-top-content -->
                      </div><!-- /.col-md-9 -->
                      <div class="col-md-3">
@@ -919,3 +922,67 @@
     <script src="assets/jquery-ui/jquery-ui.min.js"></script> <!-- main-js -->
 </body>
 </html>
+
+<style>
+    #soc-pro {
+    float: right;
+    color: #e3051a;
+    margin-top: -7%;
+}
+@media only screen and (max-width: 360px){
+.social-profile {
+    float: right;
+    color: #e3051a;
+    margin-top: 8%;
+}
+#soc-pro {
+    float: right;
+    color: #e3051a;
+    margin-top: -7%;
+}
+}
+@media only screen and (max-width: 480px){
+    .social-profile {
+    float: right;
+    color: #e3051a;
+    margin-top: 10%;
+}
+#soc-pro {
+    float: right;
+    color: #e3051a;
+    margin-top: -7%;
+    margin-right: 10%;
+}
+}
+@media only screen and (max-width: 610px){
+    .social-profile {
+    float: right;
+    color: #e3051a;
+    margin-top: 7%;
+}
+#soc-pro {
+    float: right;
+    color: #e3051a;
+    margin-top: -7%;
+}
+}
+@media only screen and (max-width: 760px){
+    .social-profile {
+    float: right;
+    color: #e3051a;
+    margin-top: 10%;
+}
+#soc-pro {
+    float: right;
+    color: #e3051a;
+    margin-top: -7% !important;
+}
+}
+/* @media only screen and (max-width: 991px){
+    #soc-pro {
+    float: right;
+    color: #e3051a;
+    margin-top: -15%;
+}
+} */
+</style>
