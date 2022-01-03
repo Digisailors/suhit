@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="assets/css/icons.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/color-schemer.css"> 
-    <script src="assets/js/contact-validate.js"></script>  
+    <script src="assets/js/footer.js"></script>  
 </head>
 
 <body>
@@ -350,7 +350,7 @@
                                         <input type="search" id="mobile" name="entry.1414872282" placeholder="Mobile Number *"required  class="form-control website">
                                     </div><!-- /.col-md-12 -->
                                     <div class="col-md-12">
-                                        <textarea rows="2" name="entry.1971352560" cols="80" placeholder="your message"></textarea>
+                                        <textarea rows="2" name="entry.1971352560" cols="80" placeholder="Your Message"></textarea>
                                     </div><!-- /.col-md-12 -->
                                 </div><!-- /.row -->
                                 <div class="subimt-button clearfix">
@@ -520,7 +520,10 @@
                 <div class="row">
                      <div class="col-md-9">
                         <div class="bottom-content-left">
-                            <p class="copyright">Copyright &copy; 2021 Digisailor  -  All Right Reserved <a href="https://www.digisailor.com/">Digisailor.com</a></p>
+                            <!-- <p class="copyright">Copyright &copy; 2021 Suhit Associates -  Developed By <a href="https://www.digisailor.com/">Digisailor</a></p> -->
+                            <div class="copyright" id="footerLinks">
+                                Copyright &copy <script type="text/javascript"> document.write(new Date().getFullYear());</script> Suhit Associates - Developed By <a href="https://www.digisailor.com/">Digisailor</a> 
+                            </div>
                         </div><!-- /.bottom-top-content -->
                      </div><!-- /.col-md-9 -->
                      <div class="col-md-3">
@@ -553,5 +556,63 @@
     color: #e3051a;
     margin-top: 1%;
     margin-bottom: 5%;
+}
+/* #soc-pro {
+  float: right;
+  color: #e3051a;
+  margin-top: -7% ;
+} */
+@media only screen and (max-width: 991px){
+    /* #soc-pro {
+    float: right;
+    color: #e3051a;
+    margin-top: -15%;
+} */
+}
+@media only screen and (max-width: 760px){
+    .social-profile {
+    float: right;
+    color: #e3051a;
+    margin-top: 8%;
+}
+/* #soc-pro {
+    float: right;
+    color: #e3051a;
+    margin-top: -8%;
+} */
+}
+@media only screen and (max-width: 610px){
+    .social-profile {
+    float: right;
+    color: #e3051a;
+    margin-top: 10%;
+}
+#foot-item {
+    margin-top: -9% !important;
+    margin-left: 21% !important;
+}
+}
+@media only screen and (max-width: 480px){
+    #foot-item {
+    margin-top: -12% !important;
+    margin-left: 27% !important;
+}
+/* #soc-pro {
+    float: right;
+    color: #e3051a;
+    margin-top: -12%;
+    margin-right: 10%;
+} */
+}
+@media only screen and (max-width: 360px){
+    #foot-item {
+    margin-top: -17% !important;
+    margin-left: 36% !important;
+}
+
+/* #soc-pro{
+    margin-top: -9%;
+    margin-right: 15%;
+} */
 }
 </style> 
