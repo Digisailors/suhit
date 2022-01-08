@@ -4154,14 +4154,14 @@ pagination
 }
 
 .block-navigation-area .item-navigation .next-item {
-  position: relative;
+  position: unset;
   border-left: transparent;
   margin-left: -5px;
 }
 
 .block-navigation-area .item-navigation .next-item:before {
   border-bottom: 40px solid;
-  border-left: 8px solid transparent;
+  /* border-left: 8px solid transparent; */
   border-right: 0px solid transparent;
   content: "";
   left: -8px;
@@ -7853,7 +7853,7 @@ input[type="checkbox"]::-ms-check {
   border: none;
   border-radius: 5px 0 0 5px;
   padding: 15px 0 15px 15px !important;
-  color: #fff;
+  color: black;
   height: 50px;
 }
 
@@ -9375,3 +9375,6 @@ img {
   margin-top: -47%;
   margin-left: 67%;
 }
+/* p{
+  text-align: justify;
+} */
