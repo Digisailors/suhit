@@ -36,10 +36,10 @@ a:hover, a:focus, a:active {
   color: #E91E22;
 }
 
-.yellow-color,
+/* .yellow-color,
 .color-yellow {
   color: #E91E22 !important;
-}
+} */
 
 .yellow-button {
   background-color: #E91E22 !important;
