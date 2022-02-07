@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "public",
+    "site": "suhi-a6290",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
