@@ -9084,7 +9084,8 @@ img#se {
     width: 23px;
     height: 23px;
     background: red;
-    right: 458px;
+    /* right: 458px; */
+    right: 444px;
     top: 6px;
     z-index: 1;
   }
@@ -9201,7 +9202,9 @@ img {
 }
 
 @media only screen and (max-width: 610px){
-  
+  #foot-item{
+    left: 18px;
+  }
   img {
     height: auto;
     margin-left: 0%;
@@ -9258,7 +9261,7 @@ img {
 }
 #foot-item {
   margin-top: -12% !important;
-  margin-left: 28% !important;
+  margin-left: 23% !important;
 }
     #mba{
       padding: 20px;
@@ -9374,6 +9377,9 @@ img {
   #foot-item{
   margin-top: -47%;
   margin-left: 67%;
+}
+@media only screen {
+  
 }
 /* p{
   text-align: justify;
